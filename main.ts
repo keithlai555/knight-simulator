@@ -27,5 +27,5 @@ light.setAll(0x7f00ff)
 light.setBrightness(150)
 forever(function () {
     makerController.player1.setAnalogThreshold(ArcadeAnalogButton.LeftRight, 0, 1023)
-    input.setAccelerometerRange(AcceleratorRange.OneG)
+    input.setAccelerometerRange(AcceleratorRange.TwoG)
 })
