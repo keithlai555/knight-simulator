@@ -20,11 +20,11 @@ input.buttonB.onEvent(ButtonEvent.Click, function () {
 })
 music.powerUp.play()
 light.setAll(0xffff00)
-for (let index = 0; index <= 100; index++) {
+for (let index = 0; index <= 85; index++) {
     light.setBrightness(index)
 }
 light.setAll(0x7f00ff)
-light.setBrightness(150)
+light.setBrightness(85)
 forever(function () {
     makerController.player1.setAnalogThreshold(ArcadeAnalogButton.LeftRight, 0, 1023)
     input.setAccelerometerRange(AcceleratorRange.TwoG)
