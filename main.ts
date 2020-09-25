@@ -3,8 +3,8 @@ input.onGesture(Gesture.TiltLeft, function () {
 })
 input.buttonA.onEvent(ButtonEvent.Click, function () {
     makerController.player1.press(ArcadeButton.A)
-    music.jumpUp.play()
-    light.setPixelColor(0, 0xff0080)
+    music.pewPew.play()
+    light.setPixelColor(0, 0xff8000)
     pause(100)
     light.setPixelColor(0, 0x000000)
 })
@@ -13,8 +13,8 @@ input.onGesture(Gesture.TiltRight, function () {
 })
 input.buttonB.onEvent(ButtonEvent.Click, function () {
     makerController.player1.press(ArcadeButton.B)
-    music.pewPew.play()
-    light.setPixelColor(9, 0xff8000)
+    music.jumpUp.play()
+    light.setPixelColor(9, 0xff0080)
     pause(100)
     light.setPixelColor(9, 0x000000)
 })
